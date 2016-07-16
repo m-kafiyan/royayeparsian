@@ -1,0 +1,194 @@
+
+p,h1,h2,h3,h4,a,span{
+	font-family: 'BBCNassim';
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+
+}
+p{
+	text-align: justify;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background: #33485a;
+	height: 40px;
+	padding: 0;
+	margin: 0;
+	z-index: 100;
+	position: relative;
+}
+.phone{
+	height: 40px;
+	padding: 0;
+	margin: 0;
+	margin-left:20px;
+}
+.phone-icon{
+	color:#fff;
+	font-size: 22px;
+	padding:9px 0px 9px 0px;
+	-ms-transform: rotate(17deg); /* IE 9 */
+    -webkit-transform: rotate(17deg); /* Chrome, Safari, Opera */
+    transform: rotate(17deg);
+}
+.phone span{
+	color:#fff;
+	font-size: 20px;
+	padding:7px 0px 7px 0px;
+}
+.menu-right{
+	padding: 0;
+	margin: 0;
+	margin-right: 20px;
+}
+.menu-right i{
+	padding:9px 0px 9px 0px;
+	color:#fff;
+	font-size: 17px;
+
+}
+.slider-bottom{
+	height: 10px;
+	background:  #33485a;
+}
+.aboutus,
+.news-index{
+	min-height: 245px;
+	margin-top: 23px;
+	padding: 1px;
+}
+.line{
+	height: 2px;
+	background: #C1C0C0;
+	width:42%;
+	margin-top: 15px;
+} 
+.about-tittle,
+.news-tittle{
+	width:16%;
+	text-align:center;
+	font-family: 'BBCNassim';
+	font-size: 24px;
+	font-weight: bold;
+	color: #656565;
+}
+.about-royaparsian{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	float: none;
+	margin-top: 60px;
+	font-family: 'BBCNassim';
+	font-size: 18px;
+
+}
+.about-royaparsian p{
+	text-align: center;
+	color: #656565;
+}
+#slideshow{
+	position: relative;
+	height:370px;
+	padding:0;
+
+}
+.photobook{
+	width: 37%;
+	height:185px;
+	position: absolute;
+	background: url('../images/book-slider.png') no-repeat;
+	z-index: 1;
+	top:225px;
+}
+.photocage{
+	width: 35%;
+	height:300px;
+	position: absolute;
+	background: url('../images/cage-slider.png') no-repeat;
+	z-index: 1;
+	margin-left: 3%;
+	left:0;
+	top:6px;
+	background-size: 60%;
+}
+.text-royayeparsian{
+	position: absolute;
+	color: #fff;
+	font-family: 'BBCNassim';
+	left: 0%;
+	margin-left: 30%;
+	width: 30%;
+	top:115px;
+	font-size: 40px;
+	/*font-weight: bold;*/
+
+}
+.more-info{
+	/*background-color: #33485a;*/
+	height: 40px;
+	box-shadow: none;
+	border: none;
+	text-align: center;
+	padding: 0;
+	margin-left: 25px;
+	margin-top: 20px;
+
+}
+.more-info a{
+	color:#fff;
+	font-family: 'BBCNassim';
+	display: block;
+	font-size: 17px;
+	margin: 0;
+	padding: 0;
+	padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #33485a;
+}
+.more-info a:hover{
+    background-color: #db5461;
+
+}
+
+
+
+#owl-demo .item{
+  display: block;
+  padding: 30px 0px;
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  padding: 5px 9px;
+}
+ 
+.owl-theme .owl-buttons i{
+  margin-top: 2px;
+}
+ 
+//To move navigation buttons outside use these settings:
+ 
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -45px;
+  top: 55px; 
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: -45px;
+  top: 55px;
+}
